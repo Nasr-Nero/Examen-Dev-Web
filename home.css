@@ -43,3 +43,72 @@ button.prev, button.next {
 
 button.prev { left: 10px; }
 button.next { right: 10px; }
+* Style général du corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+/* Style du tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Style des en-têtes (première ligne) */
+th {
+    background-color: #2c3e50;
+    color: white;
+    text-align: left;
+    padding: 15px;
+    font-size: 16px;
+}
+
+/* Style des cellules de données */
+td {
+    padding: 15px;
+    border-bottom: 1px solid #e0e0e0;
+    vertical-align: top;
+    line-height: 1.5;
+}
+
+/* Largeur fixe pour la colonne des questions */
+td:first-child, th:first-child {
+    width: 40%;
+    font-weight: bold;
+    background-color: #fcfcfc;
+}
+
+/* Style spécifique pour afficher le code informatique proprement */
+code {
+    background-color: #f1f1f1;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #e74c3c;
+}
+
+pre code {
+    display: block;
+    padding: 10px;
+    background-color: #2d3748;
+    color: #f7fafc;
+    overflow-x: auto;
+}
+
+/* Effet de survol sur les lignes */
+tbody tr:hover {
+    background-color: #f5f7fa;
+}
