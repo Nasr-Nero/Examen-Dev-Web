@@ -1,0 +1,3 @@
+## EXAMEN
+## UTILISATION D'IA 
+# 12
